@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
-import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
+
 import Layout from '../components/Layout';
 import Button from '../components/Button';
 
@@ -27,7 +28,11 @@ const Home: NextPage = () => {
               平塚市内カフェにてレッスン中
             </h2>
             <Button text='レッスンのお申し込み' />
-            <Button text='キッズヨガはこちら' />
+            <Link href='/kids'>
+              <a>
+                <Button text='キッズヨガはこちら' />
+              </a>
+            </Link>
           </div>
         </div>
       </Layout>
