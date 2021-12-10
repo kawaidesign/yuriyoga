@@ -19,7 +19,7 @@ const Home: NextPage = () => {
               className='rounded-lg'
             />
           </div>
-          <h1 className='text-8xl font-readex absolute left-5 top-16'>Let's YOGA!</h1>
+          <h1 className='text-8xl font-readex absolute left-5 top-16'>Let&apos;s YOGA!</h1>
           <div className='flex flex-col gap-4 absolute left-5 top-48'>
             <h2 className='mb-7 text-xl font-semibold'>
               平塚市中原公民館、
