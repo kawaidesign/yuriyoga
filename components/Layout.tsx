@@ -9,7 +9,7 @@ type Props = {
 const Layout: NextPage<Props> = ({ children, home }: Props) => {
   return (
     <>
-      <div className='w-screen mx-auto max-w-screen-lg font-noto'>
+      <div className='container mx-auto font-noto'>
         <Header />
         <main>{children}</main>
       </div>

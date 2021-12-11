@@ -7,7 +7,7 @@ export default function Navbar() {
 
   return (
     <>
-      <ul className='flex justify-around w-2/4 items-center'>
+      <ul className='flex justify-around w-2/4 items-center invisible md:visible'>
         <Link href='/kids'>
           <a>
             <li className={commonStyle}>キッズヨガ</li>

@@ -9,8 +9,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Layout>
-        <div className='relative container font-noto'>
-          <div style={{ borderRadius: '8px' }} className='absolute right-0 top-0'>
+        <div className='md:relative'>
+          <div
+            style={{ borderRadius: '8px' }}
+            className='mx-auto px-4 w-auto md:w-3/5 md:float-right md:px-0 lg:w-auto'
+          >
             <Image
               src='/images/main.jpg'
               width={640}
@@ -20,9 +23,11 @@ const Home: NextPage = () => {
               className='rounded-lg'
             />
           </div>
-          <h1 className='text-8xl font-readex absolute left-5 top-16'>Let&apos;s YOGA!</h1>
-          <div className='flex flex-col gap-4 absolute left-5 top-48'>
-            <h2 className='mb-7 text-xl font-semibold'>
+          <h1 className='font-readex text-6xl md:text-7xl md:absolute md:left-5 md:top-12 lg:text-8xl lg:left-5 lg:top-16'>
+            Let&apos;s YOGA!
+          </h1>
+          <div className='flex flex-col gap-4 absolute left-5 top-40 lg:top-48'>
+            <h2 className='text-l mb-5 lg:mb-7 lg:text-xl font-semibold'>
               平塚市中原公民館、
               <br />
               平塚市内カフェにてレッスン中

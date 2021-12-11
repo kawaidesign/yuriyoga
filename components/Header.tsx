@@ -1,11 +1,12 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import MenuIcon from './MenuIcon';
 
 import Navbar from './Navbar';
 
 export default function Header() {
   return (
-    <div className='flex justify-between p-6'>
+    <div className='flex justify-between h-20 items-center'>
       <Link href='/'>
         <a>
           <Image
@@ -18,6 +19,7 @@ export default function Header() {
         </a>
       </Link>
       <Navbar />
+      <MenuIcon />
     </div>
   );
 }
