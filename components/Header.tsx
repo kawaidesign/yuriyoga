@@ -6,7 +6,7 @@ import Navbar from './Navbar';
 
 export default function Header() {
   return (
-    <div className='flex justify-between h-20 items-center'>
+    <div className='flex justify-between h-14 items-center md:h-20'>
       <Link href='/'>
         <a>
           <Image
@@ -19,7 +19,6 @@ export default function Header() {
         </a>
       </Link>
       <Navbar />
-      <MenuIcon />
     </div>
   );
 }

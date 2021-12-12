@@ -7,7 +7,10 @@ export default function Navbar() {
 
   return (
     <>
-      <ul className='flex justify-around w-2/4 items-center invisible md:visible'>
+      <div className='px-4 sm:px-0 md:hidden'>
+        <p className={commonStyle}>メニュー</p>
+      </div>
+      <ul className='hidden md:flex justify-around gap-6 items-center invisible md:visible'>
         <Link href='/kids'>
           <a>
             <li className={commonStyle}>キッズヨガ</li>
