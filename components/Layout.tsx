@@ -9,7 +9,7 @@ type Props = {
 const Layout: NextPage<Props> = ({ children, home }: Props) => {
   return (
     <>
-      <div className='container mx-auto font-noto'>
+      <div className='container mx-auto font-noto xl:max-w-7xl'>
         <Header />
         <main>{children}</main>
         <p className='text-gray-500 text-xs mt-6 text-center tracking-wider'>©︎YURI YOGA 2022</p>
