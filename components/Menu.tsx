@@ -8,16 +8,16 @@ export default function Menu() {
       <ul>
         <Link href='/kids'>
           <a>
-            <li className='text-gray-600 mb-12 text-4xl font-semibold'>キッズヨガ</li>
+            <li className='text-gray-900 mb-12 text-3xl font-semibold'>キッズヨガ</li>
           </a>
         </Link>
-        <li className='text-gray-600 mb-12 text-4xl font-semibold'>プロフィール</li>
+        <li className='text-gray-900 mb-12 text-3xl font-semibold'>プロフィール</li>
         <a href='https://www.instagram.com/yuri___yoga/' target='_blank' rel='noopener noreferrer'>
-          <li className='text-gray-600 mb-12 text-4xl font-semibold'>
+          <li className='text-gray-900 mb-12 text-3xl font-semibold'>
             <FontAwesomeIcon icon={faInstagram} size='lg' />
           </li>
         </a>
-        <li className='text-gray-600 mb-12 text-4xl font-semibold'>お問い合わせ</li>
+        <li className='text-gray-900 mb-12 text-3xl font-semibold'>お問い合わせ</li>
       </ul>
     </div>
   );

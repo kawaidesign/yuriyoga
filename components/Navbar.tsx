@@ -13,7 +13,7 @@ export default function Navbar() {
     <>
       {/* SP表示時 */}
       {openMenu ? (
-        <div className='z-30 text-gray-600 text-l md:hidden'>
+        <div className='z-30 text-gray-900 text-l md:hidden'>
           <button onClick={() => setOpenMenu((prevState) => !prevState)}>閉じる</button>
         </div>
       ) : (
