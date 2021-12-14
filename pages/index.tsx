@@ -22,20 +22,20 @@ const Home: NextPage = () => {
             />
           </div>
           {/* PC表示時のメイン画像 */}
-          <div className='hidden md:block md:w-3/5 md:px-0'>
+          <div className='hidden md:block md:w-3/5 md:px-0 xl:w-2/3'>
             <Image
               src='/images/main.jpg'
-              width={640}
-              height={480}
+              width={860}
+              height={640}
               objectFit='cover'
               alt='YURI YOGA'
               className='rounded-md'
             />
           </div>
-          <h1 className='font-readex text-5xl px-2 mb-2 md:text-7xl md:absolute md:left-2 md:top-12 lg:text-8xl lg:top-16'>
+          <h1 className='font-readex text-center text-5xl mb-2 md:text-7xl md:absolute md:left-2 md:top-12 lg:text-8xl lg:top-16 xl:top-32'>
             Let&apos;s YOGA!
           </h1>
-          <div className='flex flex-col mx-auto w-64 gap-2 md:gap-4 md:absolute md:left-5 md:top-40 md:w-96 lg:top-48'>
+          <div className='flex flex-col mx-auto w-64 gap-2 md:gap-4 md:absolute md:left-5 md:top-40 md:w-96 lg:top-56 xl:top-64'>
             <h2 className='text-l my-2 md:mb-5 lg:mb-7 lg:text-xl font-semibold'>
               平塚市中原公民館、
               <br />
