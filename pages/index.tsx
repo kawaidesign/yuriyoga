@@ -42,11 +42,6 @@ const Home: NextPage = () => {
               平塚市内カフェにてレッスン中
             </h2>
             <Button text='レッスンのお申し込み' />
-            <Link href='/lesson'>
-              <a>
-                <Button text='レッスン紹介' />
-              </a>
-            </Link>
           </div>
         </div>
       </Layout>
