@@ -31,18 +31,22 @@ export default function Navbar() {
 
       {/* PC表示時 */}
       <ul className='hidden md:flex justify-around gap-6 items-center invisible md:visible'>
-        <Link href='/kids'>
+        <Link href='/profile'>
           <a>
-            <li className={commonStyle}>キッズヨガ</li>
+            <li className={commonStyle}>プロフィール</li>
           </a>
         </Link>
-        <li className={commonStyle}>プロフィール</li>
+        <Link href='/lesson'>
+          <a>
+            <li className={commonStyle}>レッスン紹介</li>
+          </a>
+        </Link>
+        <li className={commonStyle}>お問い合わせ</li>
         <a href='https://www.instagram.com/yuri___yoga/' target='_blank' rel='noopener noreferrer'>
           <li className={commonStyle}>
             <FontAwesomeIcon icon={faInstagram} size='lg' />
           </li>
         </a>
-        <li className={commonStyle}>お問い合わせ</li>
       </ul>
     </>
   );

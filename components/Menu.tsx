@@ -6,18 +6,25 @@ export default function Menu() {
   return (
     <div className='flex justify-center items-center text-center top-0 left-0 fixed w-screen h-screen z-20 bg-white bg-opacity-90 md:hidden'>
       <ul>
-        <Link href='/kids'>
+        <Link href='/profile'>
           <a>
-            <li className='text-gray-900 mb-12 text-3xl font-semibold'>キッズヨガ</li>
+            <li className='text-gray-900 mb-12 text-3xl font-semibold'>プロフィール</li>
           </a>
         </Link>
-        <li className='text-gray-900 mb-12 text-3xl font-semibold'>プロフィール</li>
+
+        <Link href='/lesson'>
+          <a>
+            <li className='text-gray-900 mb-12 text-3xl font-semibold'>レッスン紹介</li>
+          </a>
+        </Link>
+
+        <li className='text-gray-900 mb-12 text-3xl font-semibold'>お問い合わせ</li>
+
         <a href='https://www.instagram.com/yuri___yoga/' target='_blank' rel='noopener noreferrer'>
           <li className='text-gray-900 mb-12 text-3xl font-semibold'>
             <FontAwesomeIcon icon={faInstagram} size='lg' />
           </li>
         </a>
-        <li className='text-gray-900 mb-12 text-3xl font-semibold'>お問い合わせ</li>
       </ul>
     </div>
   );
