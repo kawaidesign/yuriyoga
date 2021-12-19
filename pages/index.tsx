@@ -32,11 +32,13 @@ const Home: NextPage = () => {
               className='rounded-md'
             />
           </div>
+
           <h1 className='font-readex text-center text-5xl mb-2 md:text-7xl md:absolute md:left-2 md:top-12 lg:text-8xl lg:top-16 xl:top-32'>
             Let&apos;s YOGA!
           </h1>
+
           <div className='flex flex-col mx-auto w-64 gap-2 md:gap-4 md:absolute md:left-5 md:top-40 md:w-96 lg:top-56 xl:top-64'>
-            <h2 className='text-l my-2 md:mb-5 lg:mb-7 lg:text-xl font-semibold'>
+            <h2 className='text-l my-2 md:mb-5 lg:mb-7 lg:text-2xl font-semibold'>
               平塚市中原公民館、
               <br />
               平塚市内カフェにてレッスン中

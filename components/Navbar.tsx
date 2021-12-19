@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import Menu from './Menu';
 
 export default function Navbar() {
-  const commonStyle: string = 'hover:text-red-500 duration-200 cursor-pointer';
+  const commonStyle: string = 'text-xs lg:text-sm hover:text-red-500 duration-200 cursor-pointer';
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
@@ -41,7 +41,11 @@ export default function Navbar() {
             <li className={commonStyle}>レッスン紹介</li>
           </a>
         </Link>
-        <li className={commonStyle}>お問い合わせ</li>
+        <Link href='/contact'>
+          <a>
+            <li className={commonStyle}>お問い合わせ</li>
+          </a>
+        </Link>
         <a href='https://www.instagram.com/yuri___yoga/' target='_blank' rel='noopener noreferrer'>
           <li className={commonStyle}>
             <FontAwesomeIcon icon={faInstagram} size='lg' />
