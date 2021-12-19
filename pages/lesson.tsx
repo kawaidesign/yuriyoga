@@ -12,12 +12,12 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <div className='container font-noto text-center py-4'>
-          <p className='sm:text-lg m-auto px-4 text-gray-600 text-center leading-relaxed my-16'>
-            YURI YOGAが行っているレッスンをご紹介します。
-            <br />
-            オンラインレッスン、パーソナルレッスンも行っていますので
-            <br />
-            お気軽にお問い合わせください。
+          <p className='text-sm sm:text-lg m-auto px-4 text-gray-600 text-center leading-relaxed my-16 sm:w-[720px]'>
+            <span className='inline-block'>YURI YOGAが行っているレッスンを</span>
+            <span className='inline-block'>ご紹介します。</span>
+            <span className='inline-block'>オンラインレッスン、パーソナルレッスンも</span>
+            <span className='inline-block'>行っていますので</span>
+            <span className='inline-block'>お気軽にお問い合わせください。</span>
           </p>
 
           <section className='mb-16'>

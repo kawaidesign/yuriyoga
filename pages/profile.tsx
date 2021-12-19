@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <div className='container font-noto text-center py-4'>
-          <div className='mx-auto mb-4'>
+          <div className='w-[120px] mx-auto my-4 sm:w-[160px]'>
             <Image
               src='/images/profile.jpg'
               width={160}
