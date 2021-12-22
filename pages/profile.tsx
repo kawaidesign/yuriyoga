@@ -28,6 +28,16 @@ const Home: NextPage = () => {
           <div className='m-auto px-4 text-justify sm:w-[480px]'>
             <FadeIn>
               <section className='mb-16'>
+                <h3 className='text-base font-semibold h-10 sm:text-xl'>YURI YOGA</h3>
+                <p className='text-gray-600 text-sm leading-loose'>
+                  妻でもない、ママでもない、先生でもない、YURIの時間をつくる大切さに気づき、ヨガの時間はそんな自分を探求する時間にしています。
+                  自分と向き合う時間があることで心と体が整って、穏やかに過ごせる日が増えてきました。ママの心と体が元気だと、家族の元気につながると感じています。
+                  いつからでも、何歳からでも、進化できる!ママだからと諦めず、自分の可能性を知ってほしい!私が日々体感したことをお伝えしています。
+                </p>
+              </section>
+            </FadeIn>
+            <FadeIn>
+              <section className='mb-16'>
                 <h3 className='text-base font-semibold h-10 sm:text-xl'>ヨガに出会うきっかけ</h3>
                 <p className='text-gray-600 text-sm leading-loose'>
                   夫の転勤で地元を離れ、知らない土地で何か夢中になれるものはないかと思い、フィットネス感覚で始めたのがヨガでした。
@@ -49,16 +59,6 @@ const Home: NextPage = () => {
               </section>
             </FadeIn>
             <FadeIn>
-              <section className='mb-16'>
-                <h3 className='text-base font-semibold h-10 sm:text-xl'>YURI YOGA</h3>
-                <p className='text-gray-600 text-sm leading-loose'>
-                  妻でもない、ママでもない、先生でもない、YURIの時間をつくる大切さに気づき、ヨガの時間はそんな自分を探求する時間にしています。
-                  自分と向き合う時間があることで心と体が整って、穏やかに過ごせる日が増えてきました。ママの心と体が元気だと、家族の元気につながると感じています。
-                  いつからでも、何歳からでも、進化できる!ママだからと諦めず、自分の可能性を知ってほしい!私が日々体感したことをお伝えしています。
-                </p>
-              </section>
-            </FadeIn>
-            <FadeIn>
               <section className='mb-12 p-4 bg-[#efebe3] rounded'>
                 <h4 className='text-gray-800 text-sm mb-2'>主な資格</h4>
                 <ul className='text-gray-800 text-sm leading-relaxed tracking-wide'>
@@ -66,15 +66,16 @@ const Home: NextPage = () => {
                   <li>・保育士資格</li>
                   <li>・RYT200</li>
                   <li>・Five Elements Yoga108h修了</li>
+                  <li>・キッズヨガ養成講座修了</li>
                 </ul>
               </section>
             </FadeIn>
           </div>
         </div>
         <div className='w-full flex justify-center'>
-          <Link href='/'>
+          <Link href='/contact'>
             <a>
-              <Button text='レッスンのお申し込み' />
+              <Button text='ご予約・お問い合わせ' />
             </a>
           </Link>
         </div>

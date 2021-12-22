@@ -6,8 +6,8 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <div className='container font-noto text-center py-4'>
-          <h1 className='text-md font-semibold tracking-wide mb-4 sm:text-lg'>
-            お問い合わせ・レッスンのお申し込み
+          <h1 className='text-2xl font-semibold tracking-wide mb-4 sm:text-3xl'>
+            ご予約・お問い合わせ
           </h1>
         </div>
       </Layout>

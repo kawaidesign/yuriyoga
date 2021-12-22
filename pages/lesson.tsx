@@ -17,9 +17,6 @@ const Home: NextPage = () => {
           <p className='text-sm sm:text-lg m-auto px-4 text-gray-600 text-center leading-relaxed my-16 sm:w-[720px]'>
             <span className='inline-block'>YURI YOGAが行っているレッスンを</span>
             <span className='inline-block'>ご紹介します。</span>
-            <span className='inline-block'>オンラインレッスン、パーソナルレッスンも</span>
-            <span className='inline-block'>行っていますので</span>
-            <span className='inline-block'>お気軽にお問い合わせください。</span>
           </p>
 
           <FadeIn>
@@ -136,12 +133,19 @@ const Home: NextPage = () => {
           </FadeIn>
         </div>
 
-        <div className='w-full flex justify-center mb-20'>
-          <Link href='/'>
+        <div className='w-full flex justify-center mb-8'>
+          <Link href='/contact'>
             <a>
-              <Button text='レッスンのお申し込み' />
+              <Button text='ご予約・お問い合わせ' />
             </a>
           </Link>
+        </div>
+        <div className='container font-noto text-center py-4'>
+          <p className='text-sm sm:text-lg m-auto px-4 text-gray-600 text-center leading-relaxed mb-8 sm:w-[720px]'>
+            <span className='inline-block'>オンラインレッスン、パーソナルレッスンも</span>
+            <span className='inline-block'>行っていますので</span>
+            <span className='inline-block'>お気軽にお問い合わせください。</span>
+          </p>
         </div>
       </Layout>
     </>
