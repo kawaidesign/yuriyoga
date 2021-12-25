@@ -5,11 +5,18 @@ import Layout from '../components/Layout';
 import Button from '../components/Button';
 import Link from 'next/link';
 import { FadeIn } from '../components/FadeIn';
+import Seo from '../components/Seo';
 
 const Home: NextPage = () => {
   return (
     <>
       <Layout>
+        <Seo
+          pageTitle={'Profile'}
+          pageImg={'https://yuriyoga.vercel.app/images/ogp.jpg'}
+          pageImgWidth={1280}
+          pageImgHeight={960}
+        />
         <div className='container font-noto text-center py-4'>
           <FadeIn>
             <div className='w-[120px] mx-auto my-4 sm:w-[160px]'>

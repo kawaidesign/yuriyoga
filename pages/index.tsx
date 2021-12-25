@@ -1,6 +1,7 @@
 import type { NextPage } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
+import Seo from '../components/Seo';
 
 import Layout from '../components/Layout';
 import Button from '../components/Button';
@@ -9,6 +10,11 @@ const Home: NextPage = () => {
   return (
     <>
       <Layout>
+        <Seo
+          pageImg={'https://yuriyoga.vercel.app/images/ogp.jpg'}
+          pageImgWidth={1280}
+          pageImgHeight={960}
+        />
         <div className='relative md:flex md:justify-end'>
           {/* SP表示時のメイン画像 */}
           <div className='mb-3 w-full md:hidden'>

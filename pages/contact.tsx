@@ -1,10 +1,17 @@
 import type { NextPage } from 'next';
 import Layout from '../components/Layout';
+import Seo from '../components/Seo';
 
 const Home: NextPage = () => {
   return (
     <>
       <Layout>
+        <Seo
+          pageTitle={'Contact'}
+          pageImg={'https://yuriyoga.vercel.app/images/ogp.jpg'}
+          pageImgWidth={1280}
+          pageImgHeight={960}
+        />
         <div className='container font-noto text-center py-4'>
           <h1 className='text-xl font-semibold tracking-wide mb-4 sm:text-2xl'>
             ご予約・お問い合わせ

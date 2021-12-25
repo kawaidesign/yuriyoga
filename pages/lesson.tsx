@@ -5,6 +5,7 @@ import Layout from '../components/Layout';
 import Button from '../components/Button';
 import Link from 'next/link';
 import { FadeIn } from '../components/FadeIn';
+import Seo from '../components/Seo';
 
 const Home: NextPage = () => {
   const lessonText =
@@ -13,6 +14,12 @@ const Home: NextPage = () => {
   return (
     <>
       <Layout>
+        <Seo
+          pageTitle={'Lesson'}
+          pageImg={'https://yuriyoga.vercel.app/images/ogp.jpg'}
+          pageImgWidth={1280}
+          pageImgHeight={960}
+        />
         <div className='container font-noto text-center py-4'>
           <p className='text-sm sm:text-lg m-auto px-4 text-gray-600 text-center leading-relaxed my-16 sm:w-[720px]'>
             <span className='inline-block'>YURI YOGAが行っているレッスンを</span>
