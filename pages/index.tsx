@@ -11,6 +11,7 @@ const Home: NextPage = () => {
     <>
       <Layout>
         <Seo
+          pagePath={'https://yuriyoga.vercel.app/'}
           pageImg={'https://yuriyoga.vercel.app/images/ogp.jpg'}
           pageImgWidth={1280}
           pageImgHeight={960}
